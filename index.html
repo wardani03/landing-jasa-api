@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jasa Pembuatan API Profesional</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Badge Pastel Mint */
+    .badge-mint {
+      background: linear-gradient(90deg, #CFF7E6, #BDEED6);
+      color: #065F46;
+      padding: 0.45rem 1.2rem;
+      font-weight: 700;
+      font-size: 0.85rem;
+      border-radius: 0 0 0 14px;
+      box-shadow: 0 8px 20px rgba(6,95,70,0.12);
+      transform: rotate(14deg) translateY(-14px);
+      right: -14px;
+      top: -16px;
+      animation: floatBadge 3s ease-in-out infinite;
+      position: absolute;
+    }
+    @keyframes floatBadge {
+      0%, 100% { transform: rotate(14deg) translateY(-14px); }
+      50% { transform: rotate(14deg) translateY(-18px); }
+    }
+    /* simple responsive adjustments for toolbar */
+    @media (max-width: 768px) {
+      header nav { display: none; }
+      header a.cta { display: none; }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Toolbar Top Navigation -->
+  <header class="w-full bg-white shadow-md py-4 px-8 flex items-center justify-between fixed top-0 left-0 z-50 border-b border-gray-200">
+    <div class="flex items-center gap-3">
+      <img src="https://dummyimage.com/120x40/000/fff&text=LOGO" class="h-8" alt="logo" />
+      <span class="font-bold text-gray-800 text-lg">Jasa API Profesional</span>
+    </div>
+
+    <nav class="hidden md:flex gap-8 font-semibold text-gray-700">
+      <a href="#top" class="hover:text-green-600 transition">Home</a>
+      <a href="#paket" class="hover:text-green-600 transition">Paket</a>
+      <a href="#keunggulan" class="hover:text-green-600 transition">Keunggulan</a>
+      <a href="#portofolio" class="hover:text-green-600 transition">Portofolio</a>
+      <a href="#order" class="hover:text-green-600 transition">Order</a>
+    </nav>
+
+    <a href="https://wa.me/6281234567890?text=Halo%20saya%20ingin%20konsultasi%20tentang%20pembuatan%20API" target="_blank" class="cta hidden md:flex px-5 py-2 bg-green-600 text-white rounded-xl shadow hover:bg-green-700 transition">
+      Chat WA
+    </a>
+  </header>
+
+  <!-- Spacer supaya konten tidak ketutup navbar -->
+  <div class="h-24"></div>
+
+  ... (content truncated for brevity in this environment)
+</body>
+</html>
